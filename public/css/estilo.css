@@ -159,54 +159,31 @@ body {
 
 /* LOGIN */
 
-
+.card-cadastro {
+  width: 400px;       
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; 
+  text-align: left;       
+  padding: 20px;
+  margin-left: 20px;
+}
 
 .login-container {
   display: flex;
   align-items: center;
-  justify-content: flex-start; 
-  min-height: calc(100vh - var(--tamanho-header) - var(--tamanho-footer));
-  gap: 20px; 
+  gap: 20px;
   padding: 20px;
 }
-
-.card-cadastro {
-  width: 400px;       
-  background-color: #e5e5e5;
-  border-radius: 10px;
-  display: flex;
-  flex-direction: column;
-  align-items: center; 
-  text-align: center; 
-  padding: 20px;
-}
-
 
 .forma-verde {
-  flex: 1; 
+  flex: 0.6; 
+  min-width: 300px;
+  min-height: 500px; 
   background: linear-gradient(135deg, #00a651, #008c4a);
   border-top-left-radius: 80px;
   border-bottom-left-radius: 80px;
-  min-height: 500px; 
-}
-
-
-.card {
-  width: 50%;
-  background-color: #e5e5e5;
-  border-radius: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  flex-direction: column;
-  height: fit-content;
-  padding: 20px 0;
-  justify-content: flex-start;
-}
-
-.card h2 {
-  margin: 0;
-  font-size: 30px;
+  margin-left: auto; 
 }
 
 /* MAIN */
@@ -214,7 +191,6 @@ body {
   display: flex;
   height: calc(100vh - 80px);
 }
-
 
 /* FORM */
 .form-container {
